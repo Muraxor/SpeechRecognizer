@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="260.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VocabController">
+   <children>
+      <TextField fx:id="keyTextField" layoutX="14.0" layoutY="46.0" prefHeight="26.0" prefWidth="206.0" />
+      <Button fx:id="start_stop" layoutX="256.0" layoutY="98.0" mnemonicParsing="false" onAction="#onClickRecord" text="Старт" />
+      <Button fx:id="save" layoutX="240.0" layoutY="46.0" mnemonicParsing="false" onAction="#onClickSave" text="Сохранить" />
+      <TextArea fx:id="valuesTextField" editable="false" layoutX="14.0" layoutY="98.0" prefHeight="107.0" prefWidth="206.0" />
+      <Button fx:id="exit" layoutX="254.0" layoutY="178.0" mnemonicParsing="false" onAction="#onClickExit" text="Выход" />
+   </children>
+</AnchorPane>
