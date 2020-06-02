@@ -7,6 +7,7 @@ import javafx.fxml.FXML
 import javafx.scene.control.Button
 import javafx.stage.Stage
 import window.Settings
+import java.awt.EventQueue
 import java.io.IOException
 import java.util.logging.Level
 import java.util.logging.Logger
@@ -42,7 +43,7 @@ class MainController {
         }
     }
 
-    fun onClickStart(event: ActionEvent) {
+    fun onClickStart() {
         start()
 
         recognizer.startRecognition(true)
@@ -52,24 +53,41 @@ class MainController {
         thread.start()
     }
 
-    fun onClickStop(event: ActionEvent) {
+    fun onClickStop() {
         stop()
 
         thread.stop()
         recognizer.stopRecognition()
     }
 
-    fun onClickSettings(event: ActionEvent) {
+    fun onClickSettings() {
         st.show()
     }
 
-    fun start() {
+    private fun start() {
         start.isDisable = true
         stop.isDisable = false
     }
 
-    fun stop() {
+    private fun stop() {
         start.isDisable = false
         stop.isDisable = true
+    }
+
+    fun handleKeyPressed() {
+        EventQueue.invokeLater {
+            stop.scene.setOnKeyPressed {
+                if(it.isControlDown && it.code.toString() == "M") {
+                    it.code
+                    it.consume()
+
+                    when(start.isDisable) {
+                        true->onClickStop()
+                        false-> onClickStart()
+                    }
+                }
+            }
+        }
+
     }
 }

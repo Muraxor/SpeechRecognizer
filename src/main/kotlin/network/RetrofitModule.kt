@@ -1,5 +1,6 @@
 package network
 
+import extensions.errorRefreshVocabulary
 import okhttp3.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -41,7 +42,7 @@ class RetrofitModule {
         val call = service.upload(description,body)
         call.enqueue(object : Callback<ResponseBody> {
             override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
-                println(t.message)
+                errorRefreshVocabulary()
             }
 
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
@@ -52,7 +53,6 @@ class RetrofitModule {
                     }
                 }
                 if(name == "") {
-                    //TODO ошибка загрузки словаря alert
                     return
                 }
                 url = response.raw().request().url().toString()

@@ -7,19 +7,21 @@
       </element>
       <element id="module-output" name="SpeechRecognizer.main" />
       <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/edu.cmu.sphinx/sphinx4-core/5prealpha-SNAPSHOT/80c487017e392c79972cebeaa3cabe517cb2014c/sphinx4-core-5prealpha-SNAPSHOT.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.7/a8656952ad4315057d92e7b58bfd232c823e034f/okhttp-3.14.7.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.2/ec2544ab27e110d2d431bdad7d538ed509b21e62/commons-math3-3.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.7.2/2c17c9e58aa21707099f35ae0fe2e24f72c792c9/converter-gson-2.7.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.71/9180d3aec3f0b2ea6ef0dcf01b464a6e2219e381/kotlin-stdlib-jdk7-1.3.71.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.1stleg/jnativehook/2.1.0/49e72ddee45ca9cf332c50b4c716781ac0df07fd/jnativehook-2.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.2/ec2544ab27e110d2d431bdad7d538ed509b21e62/commons-math3-3.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.71/4defc79915cf4f78b49bbc4a8f1e80e87767a5b/kotlin-stdlib-jdk8-1.3.71.jar" path-in-jar="/" />
       <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/edu.cmu.sphinx/sphinx4-data/5prealpha-SNAPSHOT/f8da42e56729cab8bdb373cc4590b85bfa374c51/sphinx4-data-5prealpha-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.7/a8656952ad4315057d92e7b58bfd232c823e034f/okhttp-3.14.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.71/9180d3aec3f0b2ea6ef0dcf01b464a6e2219e381/kotlin-stdlib-jdk7-1.3.71.jar" path-in-jar="/" />
       <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.7.2/b98baad220c2091db369e5943265f9d083cad1cc/retrofit-2.7.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.1stleg/jnativehook/2.0.2/48c2bf0f820dac0f6f8a7d4a3d200de6e1cfa5e2/jnativehook-2.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Gradle/gradle-6.0.1/bin/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.7.2/2c17c9e58aa21707099f35ae0fe2e24f72c792c9/converter-gson-2.7.2.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Vocabulary" />
     </root>
   </artifact>
 </component>

@@ -1,9 +1,7 @@
 package window
 
-import controller.VocabController
 import javafx.fxml.FXMLLoader
 import javafx.scene.Scene
-import javafx.scene.control.ListView
 import javafx.stage.Modality
 import javafx.stage.Stage
 

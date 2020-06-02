@@ -16,6 +16,15 @@ fun writeToFile(fileName : File, content : String, emptyFile : Boolean) {
 
 fun <T>rewrite(fileName: File, list: ArrayList<T>) {
     val bufferedWriter = FileOutputStream(fileName,false).bufferedWriter()
+
+    if(list.isEmpty())
+        bufferedWriter.use {
+            it.write("")
+            it.flush()
+            it.close()
+            return
+        }
+
     val lastStr = list.last().toString()
     bufferedWriter.use { writer->
         writer.apply {

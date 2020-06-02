@@ -9,6 +9,7 @@ import javafx.stage.Stage
 import network.RetrofitModule
 import singleton.KeyValueRepository
 import utils.rewrite
+import utils.writeToFile
 import window.Vocab
 import java.io.File
 
@@ -69,6 +70,7 @@ class SettingsController {
         rewrite(File(KeyValueRepository.keyFileName), keyList)
         rewrite(File(KeyValueRepository.valueFileName),valueList)
         rewrite(File(KeyValueRepository.codesFileName),codesStringList)
+
     }
     @FXML
     fun onClickExit(event: ActionEvent) = (exit.scene.window as Stage).close()

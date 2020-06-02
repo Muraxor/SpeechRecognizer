@@ -28,3 +28,8 @@ fun stopRecording() {
     alert.contentText = "Остановите запись!"
     alert.showAndWait()
 }
+fun errorRefreshVocabulary() {
+    alert.title = stopRecording
+    alert.contentText = "Словарь не обновлён. Что-то произошло с сайтом, попробуйте позже."
+    alert.showAndWait()
+}

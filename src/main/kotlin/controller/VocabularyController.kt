@@ -5,6 +5,7 @@ import extensions.emptyFieldsInfo
 import extensions.repeatKeyWordInfo
 import extensions.successSavingInfo
 import javafx.event.ActionEvent
+import javafx.event.EventHandler
 import javafx.fxml.FXML
 import javafx.scene.control.Button
 import javafx.scene.control.TextArea
@@ -16,9 +17,10 @@ import org.jnativehook.keyboard.NativeKeyEvent
 import org.jnativehook.keyboard.NativeKeyListener
 import singleton.KeyValueRepository
 import utils.writeToFile
+import java.awt.event.KeyEvent
 import java.io.File
 
-class VocabController  {
+class VocabularyController  {
     @FXML
     private lateinit var keyTextField: TextField
     @FXML
@@ -85,14 +87,6 @@ class VocabController  {
 
     inner class GlobalKeyListenerExample : NativeKeyListener {
         override fun nativeKeyPressed(e: NativeKeyEvent) {
-            if (e.keyCode == NativeKeyEvent.VC_ESCAPE) {
-                try {
-                    GlobalScreen.unregisterNativeHook()
-                } catch (ex: NativeHookException) {
-                    ex.printStackTrace()
-                }
-                return
-            }
 
             val code = NativeKeyEvent.getKeyText(e.keyCode)
             valuesWithSeparator+="$code;"
@@ -148,3 +142,4 @@ class VocabController  {
 
     private fun isNotRecording() : Boolean = start_stop.text == "Старт"
 }
+

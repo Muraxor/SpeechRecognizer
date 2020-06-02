@@ -1,3 +1,4 @@
+import org.jnativehook.NativeInputEvent;
 import org.jnativehook.keyboard.NativeKeyEvent;
 import org.jnativehook.keyboard.NativeKeyListener;
 
@@ -418,9 +419,9 @@ public class SwingKeyAdapter extends AbstractSwingInputAdapter implements Native
             case NativeKeyEvent.VC_LEFT:
                 keyCode = KeyEvent.VK_LEFT;
                 break;
-//            case NativeKeyEvent.VC_CLEAR:
-//                keyCode = KeyEvent.VK_CLEAR;
-//                break;
+            case NativeKeyEvent.VC_CLEAR:
+                keyCode = KeyEvent.VK_CLEAR;
+                break;
             case NativeKeyEvent.VC_RIGHT:
                 keyCode = KeyEvent.VK_RIGHT;
                 break;
@@ -435,24 +436,24 @@ public class SwingKeyAdapter extends AbstractSwingInputAdapter implements Native
                 keyCode = KeyEvent.VK_NUM_LOCK;
                 break;
 
-//            case NativeKeyEvent.VC_SEPARATOR:
-//                keyCode = KeyEvent.VK_SEPARATOR;
-//                break;
-//            // End Numeric Zone
-//
-//
-//            // Begin Modifier and Control Keys
-//            case NativeKeyEvent.VC_SHIFT:
-//                keyCode = KeyEvent.VK_SHIFT;
-//                break;
-//
-//            case NativeKeyEvent.VC_CONTROL:
-//                keyCode = KeyEvent.VK_CONTROL;
-//                break;
-//
-//            case NativeKeyEvent.VC_ALT:
-//                keyCode = KeyEvent.VK_ALT;
-//                break;
+            case NativeKeyEvent.VC_SEPARATOR:
+                keyCode = KeyEvent.VK_SEPARATOR;
+                break;
+            // End Numeric Zone
+
+
+            // Begin Modifier and Control Keys
+            case NativeKeyEvent.VC_SHIFT:
+                keyCode = KeyEvent.VK_SHIFT;
+                break;
+
+            case NativeKeyEvent.VC_CONTROL:
+                keyCode = KeyEvent.VK_CONTROL;
+                break;
+
+            case NativeKeyEvent.VC_ALT:
+                keyCode = KeyEvent.VK_ALT;
+                break;
 //
 //            case NativeKeyEvent.VC_META:
 //                keyCode = KeyEvent.VK_META;

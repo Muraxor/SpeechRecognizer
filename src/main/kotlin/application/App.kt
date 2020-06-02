@@ -58,14 +58,20 @@ class App : Application() {
             val trayIcon = TrayIcon(image)
 
 
-            val exitItem = MenuItem("Exit")
+            val openItem = MenuItem("Открыть")
+            val exitItem = MenuItem("Выход")
             exitItem.addActionListener { event: ActionEvent? ->
                 Platform.exit()
-
                 tray.remove(trayIcon)
+            }
+            openItem.addActionListener { event: ActionEvent? ->
+                Platform.runLater {
+                    showStage()
+                }
             }
 
             val popup = PopupMenu()
+            popup.add(openItem)
             popup.add(exitItem)
             trayIcon.popupMenu = popup
 
